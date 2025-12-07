@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Qiskit outputs
+*.qasm
+*.qobj
+
+# Calibration data / noise logs (optional)
+calibration_data/
+noise_models/
+
+# ----------------------------
+# PROJECT RESULTS
+# ----------------------------
+
+# Ignore heavy results unless you want them on GitHub
+bb84/results/*.json
+bb84/results/*.csv
+e91/results/*.json
+e91/results/*.csv
+
+# Ignore plots (optional)
+bb84/plots/*.png
+bb84/plots/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
